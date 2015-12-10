@@ -1,7 +1,5 @@
 FROM extvos/centos
-
 MAINTAINER  "Mingcai SHEN <archsh@gmail.com>"
-
 ENV JDK_MAJOR 6
 ENV JDK_UPDATE 45
 ENV JDK_BUILD 06
