@@ -1,6 +1,6 @@
 FROM extvos/alpine
 MAINTAINER  "Mingcai SHEN <archsh@gmail.com>"
-ENV JDK_MAJOR 10
+ENV JDK_MAJOR 11
 
-# Installing JDK10
-RUN apk update && apk add --no-cache openjdk10-jre
+# Installing JDK11
+RUN apk update && apk add --no-cache openjdk11-jre
