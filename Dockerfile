@@ -1,4 +1,4 @@
-FROM extvos/alpine
+FROM extvos/alpine:latest
 MAINTAINER  "Mingcai SHEN <archsh@gmail.com>"
 ENV JDK_MAJOR 11
 
