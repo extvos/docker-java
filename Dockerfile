@@ -1,6 +1,3 @@
-FROM extvos/alpine:latest
+FROM java:8
 MAINTAINER  "Mingcai SHEN <archsh@gmail.com>"
-ENV JDK_MAJOR 11
-
-# Installing JDK11
-RUN apk update && apk add --no-cache openjdk11 openjdk11-jre
+ENV JAVA 8
